@@ -1,4 +1,7 @@
+"use client"
+
 import Image from "next/image";
+import Counter from "./components/counter";
 
 export default function Home() {
   return (
@@ -13,6 +16,7 @@ export default function Home() {
           priority
         />
         <h1> HEllow WOrld !!</h1>
+        <Counter/>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a
